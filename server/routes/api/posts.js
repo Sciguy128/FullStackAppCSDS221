@@ -1,6 +1,6 @@
 const express = require('express');
 const mongodb = require('mongodb');
-const uri = "mongodb+srv://mathwizdavid:B5nlgLN7DEd910Mw@davidscluster.u4hxzhs.mongodb.net/?retryWrites=true&w=majority&appName=DavidsCluster";
+const uri = process.env.MONGODB_URI;
 
 const router = express.Router();
 
