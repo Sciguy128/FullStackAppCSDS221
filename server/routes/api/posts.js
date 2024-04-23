@@ -33,10 +33,4 @@ async function loadPostsCollection(){
     return client.db('vue_express').collection('posts');
 }
 
-//mongodb+srv://dek90:<password>@cluster0.luya9l7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-//mongodb+srv://dek90:<password>@cluster0.luya9l7.mongodb.net/
-
-
-
 module.exports = router;
